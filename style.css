@@ -48,7 +48,7 @@
 
 .tasks{
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .tasks__task,
@@ -67,7 +67,7 @@
 .add-item__btn,
 .tasks__btn{
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -161,8 +161,9 @@ button.btn_delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
-  text-decoration: line-through color #888;
+#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
