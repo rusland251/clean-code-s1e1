@@ -59,6 +59,7 @@
 .tasks__checkbox,
 .add-item__btn,
 .tasks__input,
+.add-item__input,
 .tasks__btn{
   outline: none;
 }
@@ -105,7 +106,8 @@
   color: #888;
 }
 
-.tasks__input:focus {
+.tasks__input:focus,
+.add-item__input:focus{
   color: #333;
 }
 
